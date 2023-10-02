@@ -18,7 +18,7 @@ export default {
   theme: defaultTheme({
     sidebar: false,
     repo: "https://github.com/w3b3d3v/w3d-manifesto",
-    contributors: true,
+    contributors: false,
     logo: "/images/w3d-logo-hor.png",
     logoDark: "/images/w3d-logo-hor-ac.png",
     editLink: false,
