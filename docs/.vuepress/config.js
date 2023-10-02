@@ -19,6 +19,8 @@ export default {
     sidebar: false,
     repo: "https://github.com/w3b3d3v/w3d-manifesto",
     contributors: true,
-    logo: "/images/w3d-logo-hor-ac.png",
+    logo: "/images/w3d-logo-hor.png",
+    logoDark: "/images/w3d-logo-hor-ac.png",
+    editLink: false,
   }),
 }
