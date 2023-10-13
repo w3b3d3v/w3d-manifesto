@@ -15,6 +15,17 @@ export default {
       description: "WEB3DEV Manifesto",
     },
   },
+  head: [
+    ["meta", { name: "title", content: "WEB3DEV Manifesto" }],
+    ["meta", { property: "og:title", content: "WEB3DEV Manifesto" }],
+    ["meta", { property: "og:type", content: "website" }],
+    ["meta", { property: "og:url", content: "https://manifest.w3d.community" }],
+    ["meta", { property: "og:image", itemProp: "image", content: "/manifesto.png" }],
+    ["meta", { property: "twitter:title", content: "WEB3DEV Manifesto" }],
+    ["meta", { property: "twitter:url", content: "https://manifest.w3d.community" }],
+    ["meta", { property: "twitter:card", content: "summary_large_image" }],
+    ["meta", { property: "twitter:image", itemProp: "image", content: "/manifesto.png" }],
+  ],
   theme: defaultTheme({
     sidebar: false,
     repo: "https://github.com/w3b3d3v/w3d-manifesto",
